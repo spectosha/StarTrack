@@ -2,6 +2,8 @@ package game.object.enemy;
 
 import main.state.LevelSetings;
 
+import java.awt.*;
+
 public class Vizarius extends Boss {
 
 	float radiusBoss = (float) (Math.random()*25+10);
@@ -81,5 +83,10 @@ public class Vizarius extends Boss {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public void draw(Graphics2D g){
+        super.draw(g);
+
+    }
 
 }
